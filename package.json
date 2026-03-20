@@ -1,0 +1,43 @@
+{
+  "name": "haven-theme",
+  "displayName": "Haven",
+  "description": "A warm, accessible VS Code theme built from the Cena Health brand design system. Teal-to-sage syntax, warm off-white ground, chromatic darks.",
+  "version": "0.1.0",
+  "publisher": "cena-health",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Haven Light",
+        "uiTheme": "vs",
+        "path": "./themes/haven-light.json"
+      },
+      {
+        "label": "Haven Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/haven-dark.json"
+      },
+      {
+        "label": "Haven Warm Light",
+        "uiTheme": "vs",
+        "path": "./themes/haven-warm-light.json"
+      },
+      {
+        "label": "Haven Warm Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/haven-warm-dark.json"
+      }
+    ]
+  },
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aaronsleeper/haven-vscode-theme"
+  }
+}

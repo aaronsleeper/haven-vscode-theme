@@ -1,0 +1,666 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "Haven Light",
+  "type": "light",
+  "colors": {
+
+    // ── Editor ──────────────────────────────────────────────
+    "editor.background": "#FBFAF8",
+    "editor.foreground": "#0D322D",
+    "editor.lineHighlightBackground": "#EDEBE7",
+    "editor.lineHighlightBorder": "#F3F1EE00",
+    "editor.selectionBackground": "#D0E7E2",
+    "editor.selectionHighlightBackground": "#D0E7E260",
+    "editor.wordHighlightBackground": "#D0E7E280",
+    "editor.wordHighlightStrongBackground": "#D0E7E2A0",
+    "editor.findMatchBackground": "#D0E7E2",
+    "editor.findMatchHighlightBackground": "#E9F5F280",
+    "editor.rangeHighlightBackground": "#F3F1EE80",
+    "editor.hoverHighlightBackground": "#E9F5F240",
+    "editor.foldBackground": "#F3F1EE80",
+    "editorCursor.foreground": "#1B685E",
+    "editorWhitespace.foreground": "#D1CDC640",
+    "editorIndentGuide.background": "#D1CDC6",
+    "editorIndentGuide.activeBackground": "#857E75",
+    "editorLineNumber.foreground": "#857E75",
+    "editorLineNumber.activeForeground": "#0D322D",
+    "editorRuler.foreground": "#D1CDC640",
+    "editorBracketMatch.background": "#E9F5F280",
+    "editorBracketMatch.border": "#3A8478",
+    "editorOverviewRuler.border": "#D1CDC600",
+    "editorGutter.addedBackground": "#3A8E64",
+    "editorGutter.modifiedBackground": "#B58B20",
+    "editorGutter.deletedBackground": "#C13C3B",
+    "editorError.foreground": "#C13C3B",
+    "editorWarning.foreground": "#B58B20",
+    "editorInfo.foreground": "#287AA3",
+
+    // ── Editor Groups & Tabs ────────────────────────────────
+    // teal-900 (#E9F5F2) — light teal wash for chrome
+    "editorGroup.border": "#D0E7E2",
+    "editorGroupHeader.tabsBackground": "#E9F5F2",
+    "editorGroupHeader.noTabsBackground": "#E9F5F2",
+    "tab.activeBackground": "#FBFAF8",
+    "tab.activeForeground": "#0D322D",
+    "tab.activeBorder": "#1B685E",
+    "tab.inactiveBackground": "#E9F5F2",
+    "tab.inactiveForeground": "#5B544C",
+    "tab.border": "#E9F5F2",
+    "tab.hoverBackground": "#FBFAF8",
+
+    // ── Title Bar ───────────────────────────────────────────
+    // Teal-tinted chrome — #D0E7E2 for stronger presence
+    "titleBar.activeBackground": "#D0E7E2",
+    "titleBar.activeForeground": "#0D322D",
+    "titleBar.inactiveBackground": "#D0E7E2",
+    "titleBar.inactiveForeground": "#5B544C",
+    "titleBar.border": "#D0E7E2",
+
+    // ── Activity Bar ────────────────────────────────────────
+    "activityBar.background": "#0D322D",
+    "activityBar.foreground": "#FBFAF8",
+    "activityBar.inactiveForeground": "#7CB9AD",
+    "activityBar.border": "#0D322D",
+    "activityBarBadge.background": "#1B685E",
+    "activityBarBadge.foreground": "#FBFAF8",
+
+    // ── Sidebar ─────────────────────────────────────────────
+    // teal-900 (#E9F5F2) — light teal wash, matching tab bar
+    "sideBar.background": "#E9F5F2",
+    "sideBar.foreground": "#0D322D",
+    "sideBar.border": "#D0E7E2",
+    "sideBarTitle.foreground": "#0D322D",
+    "sideBarSectionHeader.background": "#D0E7E2",
+    "sideBarSectionHeader.foreground": "#0D322D",
+
+    // ── Status Bar ──────────────────────────────────────────
+    "statusBar.background": "#124D45",
+    "statusBar.foreground": "#FBFAF8",
+    "statusBar.border": "#0D322D",
+    "statusBar.debuggingBackground": "#0D322D",
+    "statusBar.debuggingForeground": "#FBFAF8",
+    "statusBar.noFolderBackground": "#5B544C",
+    "statusBar.noFolderForeground": "#FBFAF8",
+    "statusBarItem.hoverBackground": "#0D322D80",
+    "statusBarItem.remoteBackground": "#124D45",
+    "statusBarItem.remoteForeground": "#FBFAF8",
+
+    // ── Panel (Terminal, Output, etc.) ──────────────────────
+    "panel.background": "#E9F5F2",
+    "panel.border": "#D0E7E2",
+    "panelTitle.activeBorder": "#1B685E",
+    "panelTitle.activeForeground": "#0D322D",
+    "panelTitle.inactiveForeground": "#5B544C",
+
+    // ── Inputs ──────────────────────────────────────────────
+    "input.background": "#FBFAF8",
+    "input.foreground": "#0D322D",
+    "input.border": "#857E75",
+    "input.placeholderForeground": "#857E7580",
+    "inputOption.activeBorder": "#1B685E",
+    "inputOption.activeBackground": "#1B685E20",
+    "inputValidation.errorBackground": "#FCE5E3",
+    "inputValidation.errorBorder": "#C13C3B",
+    "inputValidation.warningBackground": "#F4EAD5",
+    "inputValidation.warningBorder": "#B58B20",
+    "inputValidation.infoBackground": "#DFEEF7",
+    "inputValidation.infoBorder": "#287AA3",
+
+    // ── Buttons ─────────────────────────────────────────────
+    "button.background": "#1B685E",
+    "button.foreground": "#FBFAF8",
+    "button.hoverBackground": "#124D45",
+    "button.secondaryBackground": "#E7E4DF",
+    "button.secondaryForeground": "#0D322D",
+    "button.secondaryHoverBackground": "#D1CDC6",
+
+    // ── Dropdown ────────────────────────────────────────────
+    "dropdown.background": "#FBFAF8",
+    "dropdown.foreground": "#0D322D",
+    "dropdown.border": "#857E75",
+    "dropdown.listBackground": "#FBFAF8",
+
+    // ── Badges ──────────────────────────────────────────────
+    "badge.background": "#1B685E",
+    "badge.foreground": "#FBFAF8",
+
+    // ── Scrollbar ───────────────────────────────────────────
+    "scrollbar.shadow": "#0D322D10",
+    "scrollbarSlider.background": "#B3ADA440",
+    "scrollbarSlider.hoverBackground": "#B3ADA460",
+    "scrollbarSlider.activeBackground": "#857E7580",
+
+    // ── Lists & Trees ───────────────────────────────────────
+    "list.activeSelectionBackground": "#D0E7E2",
+    "list.activeSelectionForeground": "#0D322D",
+    "list.inactiveSelectionBackground": "#E9F5F2",
+    "list.inactiveSelectionForeground": "#0D322D",
+    "list.hoverBackground": "#E9F5F2",
+    "list.hoverForeground": "#0D322D",
+    "list.focusBackground": "#D0E7E2",
+    "list.focusForeground": "#0D322D",
+    "list.highlightForeground": "#1B685E",
+    "list.errorForeground": "#C13C3B",
+    "list.warningForeground": "#B58B20",
+
+    // ── Widgets (Command Palette, etc.) ─────────────────────
+    "widget.shadow": "#0D322D10",
+    "editorWidget.background": "#E9F5F2",
+    "editorWidget.foreground": "#0D322D",
+    "editorWidget.border": "#D0E7E2",
+    "editorSuggestWidget.background": "#E9F5F2",
+    "editorSuggestWidget.foreground": "#0D322D",
+    "editorSuggestWidget.selectedBackground": "#D0E7E2",
+    "editorSuggestWidget.highlightForeground": "#1B685E",
+
+    // ── Peek View ───────────────────────────────────────────
+    "peekView.border": "#1B685E",
+    "peekViewEditor.background": "#FBFAF8",
+    "peekViewEditor.matchHighlightBackground": "#D0E7E280",
+    "peekViewResult.background": "#E9F5F2",
+    "peekViewResult.fileForeground": "#0D322D",
+    "peekViewResult.lineForeground": "#5B544C",
+    "peekViewResult.matchHighlightBackground": "#D0E7E280",
+    "peekViewResult.selectionBackground": "#D0E7E2",
+    "peekViewResult.selectionForeground": "#0D322D",
+    "peekViewTitle.background": "#D0E7E2",
+    "peekViewTitleLabel.foreground": "#0D322D",
+    "peekViewTitleDescription.foreground": "#5B544C",
+
+    // ── Minimap ─────────────────────────────────────────────
+    "minimap.findMatchHighlight": "#D0E7E2",
+    "minimap.selectionHighlight": "#1B685E60",
+    "minimap.errorHighlight": "#C13C3B",
+    "minimap.warningHighlight": "#B58B20",
+    "minimapGutter.addedBackground": "#3A8E64",
+    "minimapGutter.modifiedBackground": "#B58B20",
+    "minimapGutter.deletedBackground": "#C13C3B",
+
+    // ── Breadcrumbs ─────────────────────────────────────────
+    "breadcrumb.foreground": "#5B544C",
+    "breadcrumb.focusForeground": "#0D322D",
+    "breadcrumb.activeSelectionForeground": "#0D322D",
+    "breadcrumbPicker.background": "#E9F5F2",
+
+    // ── Git Decorations ─────────────────────────────────────
+    "gitDecoration.addedResourceForeground": "#3A8E64",
+    "gitDecoration.modifiedResourceForeground": "#B58B20",
+    "gitDecoration.deletedResourceForeground": "#C13C3B",
+    "gitDecoration.untrackedResourceForeground": "#287AA3",
+    "gitDecoration.conflictingResourceForeground": "#C13C3B",
+    "gitDecoration.ignoredResourceForeground": "#857E75",
+    "gitDecoration.stageModifiedResourceForeground": "#1B685E",
+    "gitDecoration.stageDeletedResourceForeground": "#C13C3B",
+
+    // ── Diff Editor ─────────────────────────────────────────
+    "diffEditor.insertedTextBackground": "#DCF0E530",
+    "diffEditor.removedTextBackground": "#FCE5E330",
+    "diffEditor.insertedLineBackground": "#DCF0E520",
+    "diffEditor.removedLineBackground": "#FCE5E320",
+
+    // ── Merge Conflicts ─────────────────────────────────────
+    "merge.currentHeaderBackground": "#DCF0E580",
+    "merge.currentContentBackground": "#DCF0E530",
+    "merge.incomingHeaderBackground": "#DFEEF780",
+    "merge.incomingContentBackground": "#DFEEF730",
+
+    // ── Focus Border ────────────────────────────────────────
+    "focusBorder": "#3A8478",
+
+    // ── Terminal ────────────────────────────────────────────
+    "terminal.background": "#E9F5F2",
+    "terminal.foreground": "#0D322D",
+    "terminal.ansiBlack": "#0D322D",
+    "terminal.ansiRed": "#C13C3B",
+    "terminal.ansiGreen": "#3A8E64",
+    "terminal.ansiYellow": "#B58B20",
+    "terminal.ansiBlue": "#287AA3",
+    "terminal.ansiMagenta": "#932B2A",
+    "terminal.ansiCyan": "#1B685E",
+    "terminal.ansiWhite": "#FBFAF8",
+    "terminal.ansiBrightBlack": "#857E75",
+    "terminal.ansiBrightRed": "#C13C3B",
+    "terminal.ansiBrightGreen": "#3A8E64",
+    "terminal.ansiBrightYellow": "#CEA861",
+    "terminal.ansiBrightBlue": "#538EB0",
+    "terminal.ansiBrightMagenta": "#D87972",
+    "terminal.ansiBrightCyan": "#3A8478",
+    "terminal.ansiBrightWhite": "#FBFAF8",
+    "terminal.selectionBackground": "#D0E7E2",
+    "terminalCursor.foreground": "#1B685E",
+
+    // ── Notification ────────────────────────────────────────
+    "notificationCenter.border": "#D0E7E2",
+    "notifications.background": "#E9F5F2",
+    "notifications.foreground": "#0D322D",
+    "notifications.border": "#D0E7E2",
+    "notificationsErrorIcon.foreground": "#C13C3B",
+    "notificationsWarningIcon.foreground": "#B58B20",
+    "notificationsInfoIcon.foreground": "#287AA3"
+  },
+
+  "tokenColors": [
+
+    // ── Comments ────────────────────────────────────────────
+    // text-secondary (#5B544C) · 7.15:1 on #FBFAF8 · AA ✓
+    {
+      "name": "Comments",
+      "scope": [
+        "comment",
+        "punctuation.definition.comment"
+      ],
+      "settings": {
+        "foreground": "#5B544C",
+        "fontStyle": "italic"
+      }
+    },
+
+    // ── Keywords ────────────────────────────────────────────
+    // teal-400 (#1B685E) · 6.69:1 on #FBFAF8 · AA ✓
+    {
+      "name": "Keywords",
+      "scope": [
+        "keyword",
+        "keyword.control",
+        "keyword.operator.new",
+        "keyword.operator.expression",
+        "keyword.operator.logical",
+        "storage",
+        "storage.type",
+        "storage.modifier"
+      ],
+      "settings": {
+        "foreground": "#1B685E"
+      }
+    },
+
+    // ── Strings ─────────────────────────────────────────────
+    // warning-text (#754B00) · 7.28:1 on #FBFAF8 · AA ✓
+    {
+      "name": "Strings",
+      "scope": [
+        "string",
+        "string.quoted",
+        "string.template"
+      ],
+      "settings": {
+        "foreground": "#754B00"
+      }
+    },
+
+    // ── Numbers, Booleans, Constants ────────────────────────
+    // info-text (#0B4E6C) · 8.67:1 on #FBFAF8 · AA ✓
+    {
+      "name": "Constants",
+      "scope": [
+        "constant.numeric",
+        "constant.language",
+        "constant.character",
+        "constant.other",
+        "support.constant"
+      ],
+      "settings": {
+        "foreground": "#0B4E6C"
+      }
+    },
+
+    // ── Types, Classes, Interfaces ──────────────────────────
+    // teal-300 (#124D45) · 9.29:1 on #FBFAF8 · AA ✓
+    {
+      "name": "Types and Classes",
+      "scope": [
+        "entity.name.type",
+        "entity.name.class",
+        "entity.other.inherited-class",
+        "support.type",
+        "support.class",
+        "entity.name.type.interface",
+        "entity.name.type.enum",
+        "entity.name.type.alias"
+      ],
+      "settings": {
+        "foreground": "#124D45"
+      }
+    },
+
+    // ── Functions and Methods ────────────────────────────────
+    // sage-400 (#3A643D) · 6.56:1 on #FBFAF8 · AA ✓
+    // (shifted from sage-300 per deuteranopia review — better lightness separation from types)
+    {
+      "name": "Functions",
+      "scope": [
+        "entity.name.function",
+        "meta.function-call",
+        "support.function",
+        "entity.name.method"
+      ],
+      "settings": {
+        "foreground": "#3A643D"
+      }
+    },
+
+    // ── Variables ────────────────────────────────────────────
+    // text-primary (#0D322D) · 13.32:1 on #FBFAF8 · AAA ✓
+    {
+      "name": "Variables",
+      "scope": [
+        "variable",
+        "variable.other",
+        "variable.parameter"
+      ],
+      "settings": {
+        "foreground": "#0D322D"
+      }
+    },
+
+    // ── Properties and Attributes ───────────────────────────
+    // text-secondary (#5B544C) · 7.15:1 on #FBFAF8 · AA ✓
+    {
+      "name": "Properties",
+      "scope": [
+        "variable.other.property",
+        "variable.other.object.property",
+        "support.variable.property",
+        "meta.object-literal.key"
+      ],
+      "settings": {
+        "foreground": "#5B544C"
+      }
+    },
+
+    // ── Operators and Punctuation ────────────────────────────
+    // text-secondary (#5B544C) · 7.15:1 on #FBFAF8 · AA ✓
+    {
+      "name": "Operators",
+      "scope": [
+        "keyword.operator",
+        "keyword.operator.assignment",
+        "keyword.operator.arithmetic",
+        "keyword.operator.comparison",
+        "keyword.operator.ternary",
+        "punctuation"
+      ],
+      "settings": {
+        "foreground": "#5B544C"
+      }
+    },
+
+    // ── HTML/XML Tags ───────────────────────────────────────
+    // teal-400 (#1B685E) · 6.69:1 on #FBFAF8 · AA ✓
+    {
+      "name": "HTML Tags",
+      "scope": [
+        "entity.name.tag",
+        "punctuation.definition.tag"
+      ],
+      "settings": {
+        "foreground": "#1B685E"
+      }
+    },
+
+    // ── HTML/XML Attributes ─────────────────────────────────
+    // sage-400 (#3A643D) · 6.56:1 on #FBFAF8 · AA ✓
+    {
+      "name": "HTML Attributes",
+      "scope": [
+        "entity.other.attribute-name"
+      ],
+      "settings": {
+        "foreground": "#3A643D"
+      }
+    },
+
+    // ── Regex and Escape Characters ─────────────────────────
+    // error-text (#932B2A) · 7.68:1 on #FBFAF8 · AA ✓
+    {
+      "name": "Regex and Escapes",
+      "scope": [
+        "string.regexp",
+        "constant.character.escape",
+        "constant.other.character-class.regexp"
+      ],
+      "settings": {
+        "foreground": "#932B2A"
+      }
+    },
+
+    // ── Decorators and Annotations ──────────────────────────
+    // sage-400 (#3A643D) italic · 6.56:1 on #FBFAF8 · AA ✓
+    {
+      "name": "Decorators",
+      "scope": [
+        "meta.decorator",
+        "punctuation.decorator",
+        "entity.name.function.decorator"
+      ],
+      "settings": {
+        "foreground": "#3A643D",
+        "fontStyle": "italic"
+      }
+    },
+
+    // ── CSS Properties ──────────────────────────────────────
+    // teal-400 (#1B685E) · 6.69:1 on #FBFAF8 · AA ✓
+    {
+      "name": "CSS Properties",
+      "scope": [
+        "support.type.property-name.css",
+        "support.type.vendored.property-name.css"
+      ],
+      "settings": {
+        "foreground": "#1B685E"
+      }
+    },
+
+    // ── CSS Values ──────────────────────────────────────────
+    // warning-text (#754B00) · 7.28:1 on #FBFAF8 · AA ✓
+    {
+      "name": "CSS Values",
+      "scope": [
+        "support.constant.property-value.css",
+        "support.constant.color.css",
+        "constant.other.color.rgb-value.css",
+        "support.constant.font-name.css"
+      ],
+      "settings": {
+        "foreground": "#754B00"
+      }
+    },
+
+    // ── CSS Selectors ───────────────────────────────────────
+    // teal-300 (#124D45) · 9.29:1 on #FBFAF8 · AA ✓
+    {
+      "name": "CSS Selectors",
+      "scope": [
+        "entity.other.attribute-name.class.css",
+        "entity.other.attribute-name.id.css",
+        "entity.name.tag.css"
+      ],
+      "settings": {
+        "foreground": "#124D45"
+      }
+    },
+
+    // ── CSS Units and Functions ──────────────────────────────
+    // info-text (#0B4E6C) · 8.67:1 on #FBFAF8 · AA ✓
+    {
+      "name": "CSS Units",
+      "scope": [
+        "keyword.other.unit.css",
+        "support.function.css",
+        "entity.name.function.css"
+      ],
+      "settings": {
+        "foreground": "#0B4E6C"
+      }
+    },
+
+    // ── JSON Keys ───────────────────────────────────────────
+    // teal-400 (#1B685E) · 6.69:1 on #FBFAF8 · AA ✓
+    {
+      "name": "JSON Keys",
+      "scope": [
+        "support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#1B685E"
+      }
+    },
+
+    // ── Markdown Headings ───────────────────────────────────
+    // text-primary (#0D322D) bold · 13.32:1 on #FBFAF8 · AAA ✓
+    {
+      "name": "Markdown Headings",
+      "scope": [
+        "heading.1.markdown",
+        "heading.2.markdown",
+        "heading.3.markdown",
+        "heading.4.markdown",
+        "heading.5.markdown",
+        "heading.6.markdown",
+        "markup.heading",
+        "markup.heading.setext"
+      ],
+      "settings": {
+        "foreground": "#0D322D",
+        "fontStyle": "bold"
+      }
+    },
+
+    // ── Markdown Bold ───────────────────────────────────────
+    {
+      "name": "Markdown Bold",
+      "scope": [
+        "markup.bold"
+      ],
+      "settings": {
+        "foreground": "#0D322D",
+        "fontStyle": "bold"
+      }
+    },
+
+    // ── Markdown Italic ─────────────────────────────────────
+    // teal-400 (#1B685E) italic · 6.69:1 on #FBFAF8 · AA ✓
+    {
+      "name": "Markdown Italic",
+      "scope": [
+        "markup.italic"
+      ],
+      "settings": {
+        "foreground": "#1B685E",
+        "fontStyle": "italic"
+      }
+    },
+
+    // ── Markdown Links ──────────────────────────────────────
+    // teal-400 (#1B685E) underline · 6.69:1 on #FBFAF8 · AA ✓
+    {
+      "name": "Markdown Links",
+      "scope": [
+        "markup.underline.link",
+        "string.other.link"
+      ],
+      "settings": {
+        "foreground": "#1B685E",
+        "fontStyle": "underline"
+      }
+    },
+
+    // ── Markdown Code ───────────────────────────────────────
+    // teal-300 (#124D45) · 9.29:1 on #FBFAF8 · AA ✓
+    {
+      "name": "Markdown Inline Code",
+      "scope": [
+        "markup.inline.raw",
+        "markup.fenced_code.block"
+      ],
+      "settings": {
+        "foreground": "#124D45"
+      }
+    },
+
+    // ── Markup Inserted ─────────────────────────────────────
+    {
+      "name": "Inserted",
+      "scope": [
+        "markup.inserted"
+      ],
+      "settings": {
+        "foreground": "#3A8E64"
+      }
+    },
+
+    // ── Markup Deleted ──────────────────────────────────────
+    {
+      "name": "Deleted",
+      "scope": [
+        "markup.deleted"
+      ],
+      "settings": {
+        "foreground": "#C13C3B"
+      }
+    },
+
+    // ── Markup Changed ──────────────────────────────────────
+    {
+      "name": "Changed",
+      "scope": [
+        "markup.changed"
+      ],
+      "settings": {
+        "foreground": "#B58B20"
+      }
+    },
+
+    // ── Invalid / Deprecated ────────────────────────────────
+    {
+      "name": "Invalid",
+      "scope": [
+        "invalid",
+        "invalid.illegal"
+      ],
+      "settings": {
+        "foreground": "#C13C3B",
+        "fontStyle": "strikethrough"
+      }
+    },
+    {
+      "name": "Deprecated",
+      "scope": [
+        "invalid.deprecated"
+      ],
+      "settings": {
+        "foreground": "#932B2A",
+        "fontStyle": "strikethrough"
+      }
+    },
+
+    // ── Template Expressions ────────────────────────────────
+    // teal-400 — structural punctuation within strings
+    {
+      "name": "Template Expression",
+      "scope": [
+        "punctuation.definition.template-expression",
+        "punctuation.section.embedded"
+      ],
+      "settings": {
+        "foreground": "#1B685E"
+      }
+    },
+
+    // ── This / Self ─────────────────────────────────────────
+    // teal-300 (#124D45) · 9.29:1 · structural self-reference
+    {
+      "name": "This/Self",
+      "scope": [
+        "variable.language.this",
+        "variable.language.self",
+        "variable.language.super"
+      ],
+      "settings": {
+        "foreground": "#124D45",
+        "fontStyle": "italic"
+      }
+    }
+  ]
+}
