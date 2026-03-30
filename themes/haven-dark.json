@@ -140,12 +140,12 @@
     "panelSection.border": "#092A2530",
 
     // ── Text Blocks (chat, hover, markdown preview) ───────
-    // Code blocks and blockquotes in chat/hover use panel-altitude surfaces
-    "textCodeBlock.background": "#04201C",
-    "textBlockQuote.background": "#04201C",
+    // Code blocks and blockquotes sit one step above their parent surface
+    "textCodeBlock.background": "#092A25",
+    "textBlockQuote.background": "#092A25",
     "textBlockQuote.border": "#1B685E",
     "textPreformat.foreground": "#A8D1C9",
-    "textPreformat.background": "#04201C",
+    "textPreformat.background": "#092A25",
     "textLink.foreground": "#52A395",
     "textLink.activeForeground": "#7CB9AD",
     "textSeparator.foreground": "#092A2530",
