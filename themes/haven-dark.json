@@ -140,12 +140,12 @@
     "panelSection.border": "#092A2530",
 
     // ── Text Blocks (chat, hover, markdown preview) ───────
-    // Code blocks and blockquotes sit one step above their parent surface
-    "textCodeBlock.background": "#092A25",
-    "textBlockQuote.background": "#092A25",
+    // Code blocks and blockquotes need clear separation from parent surface
+    "textCodeBlock.background": "#0D322D",
+    "textBlockQuote.background": "#0D322D",
     "textBlockQuote.border": "#1B685E",
     "textPreformat.foreground": "#A8D1C9",
-    "textPreformat.background": "#092A25",
+    "textPreformat.background": "#0D322D",
     "textLink.foreground": "#52A395",
     "textLink.activeForeground": "#7CB9AD",
     "textSeparator.foreground": "#092A2530",

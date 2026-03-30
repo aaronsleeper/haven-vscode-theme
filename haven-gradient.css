@@ -1,0 +1,174 @@
+/* ==========================================================================
+   Haven Teal Dark — Gradient & Glass Layer v5
+
+   Requires: "Apc Customize UI++" extension (drcika.apc-extension)
+
+   Design rules:
+     - Gradients only on TALL surfaces (sidebar, activity bar, panel)
+     - Bars (status, title, tabs) stay FLAT — no vertical gradient on
+       short/wide elements (causes unwanted 3D rounding)
+     - Hair-thin borders (#092A2530) crisply separate surfaces
+     - Frosted glass on floating UI (command palette, menus, hovers)
+   ========================================================================== */
+
+
+/* ==========================================================================
+   Layer 1: Surface Gradients — tall surfaces only
+   ========================================================================== */
+
+/* ── Sidebar: top-lit vertical gradient ────────────────────
+   Lighter at top, darker at bottom. Long vertical run. */
+
+.monaco-workbench .sidebar {
+  background: linear-gradient(
+    180deg,
+    #092A25 0%,
+    #04201C 35%,
+    #021210 100%
+  ) !important;
+}
+
+/* ── Activity Bar: center glow ─────────────────────────────
+   Tall narrow strip. Glow at center, dark at extremes. */
+
+.monaco-workbench .activitybar {
+  background: linear-gradient(
+    180deg,
+    #031915 0%,
+    #092A25 45%,
+    #092A25 55%,
+    #031915 100%
+  ) !important;
+}
+
+/* ── Panel: flat ───────────────────────────────────────────
+   Removed gradient — panel header is a short/wide bar that
+   would look rounded with a vertical gradient. */
+
+
+/* ==========================================================================
+   Layer 2: Frosted Glass — Floating UI
+   ========================================================================== */
+
+.quick-input-widget {
+  backdrop-filter: blur(16px) saturate(180%) !important;
+  -webkit-backdrop-filter: blur(16px) saturate(180%) !important;
+  background: rgba(3, 25, 21, 0.88) !important;
+  border: 1px solid rgba(82, 163, 149, 0.15) !important;
+  box-shadow:
+    0 8px 32px rgba(1, 15, 12, 0.5),
+    0 0 1px rgba(82, 163, 149, 0.2) !important;
+}
+
+.suggest-widget {
+  backdrop-filter: blur(12px) saturate(160%) !important;
+  -webkit-backdrop-filter: blur(12px) saturate(160%) !important;
+  background: rgba(3, 25, 21, 0.90) !important;
+  border: 1px solid rgba(82, 163, 149, 0.12) !important;
+  box-shadow:
+    0 4px 16px rgba(1, 15, 12, 0.4),
+    0 0 1px rgba(82, 163, 149, 0.15) !important;
+}
+
+.editor-hover {
+  backdrop-filter: blur(12px) saturate(150%) !important;
+  -webkit-backdrop-filter: blur(12px) saturate(150%) !important;
+  background: rgba(3, 25, 21, 0.92) !important;
+  border: 1px solid rgba(82, 163, 149, 0.10) !important;
+  box-shadow: 0 4px 16px rgba(1, 15, 12, 0.35) !important;
+}
+
+.notification-toast,
+.notifications-center {
+  backdrop-filter: blur(16px) saturate(150%) !important;
+  -webkit-backdrop-filter: blur(16px) saturate(150%) !important;
+  background: rgba(3, 25, 21, 0.90) !important;
+  border: 1px solid rgba(82, 163, 149, 0.10) !important;
+  box-shadow: 0 8px 24px rgba(1, 15, 12, 0.4) !important;
+}
+
+.monaco-menu {
+  backdrop-filter: blur(12px) saturate(160%) !important;
+  -webkit-backdrop-filter: blur(12px) saturate(160%) !important;
+  background: rgba(3, 25, 21, 0.92) !important;
+  border: 1px solid rgba(82, 163, 149, 0.10) !important;
+  box-shadow:
+    0 6px 24px rgba(1, 15, 12, 0.45),
+    0 0 1px rgba(82, 163, 149, 0.15) !important;
+}
+
+.dialog-box {
+  backdrop-filter: blur(20px) saturate(180%) !important;
+  -webkit-backdrop-filter: blur(20px) saturate(180%) !important;
+  background: rgba(4, 32, 28, 0.92) !important;
+  border: 1px solid rgba(82, 163, 149, 0.12) !important;
+  box-shadow: 0 12px 48px rgba(1, 15, 12, 0.6) !important;
+}
+
+.find-widget {
+  backdrop-filter: blur(12px) saturate(150%) !important;
+  -webkit-backdrop-filter: blur(12px) saturate(150%) !important;
+  background: rgba(3, 25, 21, 0.90) !important;
+  border: 1px solid rgba(82, 163, 149, 0.12) !important;
+  box-shadow: 0 4px 16px rgba(1, 15, 12, 0.35) !important;
+}
+
+
+/* ==========================================================================
+   Layer 3: Blend Modes — tall surfaces only
+   ========================================================================== */
+
+.monaco-workbench .activitybar .action-item .codicon {
+  mix-blend-mode: screen !important;
+}
+
+.monaco-workbench .activitybar .badge {
+  mix-blend-mode: normal !important;
+  isolation: isolate !important;
+}
+
+
+/* ==========================================================================
+   Layer 4: Chat & Rendered Markdown — blockquotes, code blocks
+   ========================================================================== */
+
+/* Blockquotes in chat and rendered markdown */
+.rendered-markdown blockquote,
+.chat-widget blockquote {
+  padding: 12px 16px !important;
+  border-radius: 6px !important;
+  border-left: 3px solid rgba(82, 163, 149, 0.4) !important;
+  margin: 8px 0 !important;
+}
+
+/* Code blocks in chat and rendered markdown */
+.rendered-markdown pre,
+.chat-widget pre {
+  padding: 12px 16px !important;
+  border-radius: 6px !important;
+  margin: 8px 0 !important;
+}
+
+
+/* ==========================================================================
+   Utilities
+   ========================================================================== */
+
+.editor .scrollbar .slider {
+  border-radius: 4px !important;
+}
+
+.minimap-decorations-layer {
+  -webkit-mask-image: linear-gradient(
+    180deg,
+    transparent 0%,
+    black 3%,
+    black 97%,
+    transparent 100%
+  ) !important;
+}
+
+body::after {
+  content: "haven-gradient-css-v5-loaded";
+  display: none;
+}

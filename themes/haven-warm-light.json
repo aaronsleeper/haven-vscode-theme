@@ -95,11 +95,11 @@
     "panelTitle.inactiveForeground": "#5B544C",
 
     // ── Text Blocks (chat, hover, markdown preview) ───────
-    "textCodeBlock.background": "#EDEBE7",
-    "textBlockQuote.background": "#EDEBE7",
+    "textCodeBlock.background": "#E7E4DF",
+    "textBlockQuote.background": "#E7E4DF",
     "textBlockQuote.border": "#857E75",
     "textPreformat.foreground": "#5B544C",
-    "textPreformat.background": "#EDEBE7",
+    "textPreformat.background": "#E7E4DF",
     "textLink.foreground": "#1B685E",
     "textLink.activeForeground": "#0D322D",
     "textSeparator.foreground": "#D1CDC6",

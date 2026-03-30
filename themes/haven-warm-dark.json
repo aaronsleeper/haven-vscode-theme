@@ -37,11 +37,11 @@
     "editorInfo.foreground": "#538EB0",
 
     // ── Text Blocks (chat, hover, markdown preview) ───────
-    "textCodeBlock.background": "#25211C",
-    "textBlockQuote.background": "#25211C",
+    "textCodeBlock.background": "#2C2722",
+    "textBlockQuote.background": "#2C2722",
     "textBlockQuote.border": "#5B544C",
     "textPreformat.foreground": "#D1CDC6",
-    "textPreformat.background": "#25211C",
+    "textPreformat.background": "#2C2722",
     "textLink.foreground": "#52A395",
     "textLink.activeForeground": "#7CB9AD",
     "textSeparator.foreground": "#25211C",
