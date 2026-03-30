@@ -1,6 +1,6 @@
 {
   "$schema": "vscode://schemas/color-theme",
-  "name": "Haven Warm Dark",
+  "name": "Haven Neutral Dark",
   "type": "dark",
   "colors": {
 
@@ -36,6 +36,22 @@
     "editorWarning.foreground": "#CEA861",
     "editorInfo.foreground": "#538EB0",
 
+    // ── Text Blocks (chat, hover, markdown preview) ───────
+    "textCodeBlock.background": "#1C1915",
+    "textBlockQuote.background": "#1C1915",
+    "textBlockQuote.border": "#5B544C",
+    "textPreformat.foreground": "#D1CDC6",
+    "textPreformat.background": "#1C1915",
+    "textLink.foreground": "#52A395",
+    "textLink.activeForeground": "#7CB9AD",
+    "textSeparator.foreground": "#25211C",
+
+    // ── Chat ────────────────────────────────────────────────
+    "chat.requestBackground": "#161310",
+    "chat.requestBorder": "#25211C60",
+    "chat.slashCommandBackground": "#5B544C30",
+    "chat.slashCommandForeground": "#B3ADA4",
+
     // ── Editor Groups & Tabs ────────────────────────────────
     // warm-150 (#25211C) for borders — half-step between sidebar and editor
     "editorGroup.border": "#25211C",
@@ -58,11 +74,11 @@
     "titleBar.border": "#25211C40",
 
     // ── Activity Bar ────────────────────────────────────────
-    // warm-100 (#1C1914) — chrome rises above the editor pit
-    "activityBar.background": "#1C1914",
+    // warm-75 (#161310) — one step darker than sidebar for depth
+    "activityBar.background": "#161310",
     "activityBar.foreground": "#FBFAF8",
     "activityBar.inactiveForeground": "#857E75",
-    "activityBar.border": "#1C1914",
+    "activityBar.border": "#161310",
     "activityBarBadge.background": "#1B685E",
     "activityBarBadge.foreground": "#FBFAF8",
 
@@ -242,7 +258,7 @@
     "notificationsInfoIcon.foreground": "#538EB0"
   },
 
-  // Syntax tokens identical to Haven Dark (teal) —
+  // Syntax tokens identical to Haven Teal Dark —
   // same code colors, only chrome changes
   "tokenColors": [
     {

@@ -1,6 +1,6 @@
 {
   "$schema": "vscode://schemas/color-theme",
-  "name": "Haven Warm Light",
+  "name": "Haven Neutral Light",
   "type": "light",
   "colors": {
 
@@ -29,47 +29,47 @@
     "editorBracketMatch.border": "#857E75",
     "editorOverviewRuler.border": "#D1CDC600",
     "editorGutter.addedBackground": "#3A8E64",
-    "editorGutter.modifiedBackground": "#B58B20",
+    "editorGutter.modifiedBackground": "#1B685E",
     "editorGutter.deletedBackground": "#C13C3B",
     "editorError.foreground": "#C13C3B",
-    "editorWarning.foreground": "#B58B20",
+    "editorWarning.foreground": "#754B00",
     "editorInfo.foreground": "#287AA3",
 
     // ── Editor Groups & Tabs ────────────────────────────────
-    // warm-850 (#EDEBE7) — visible warm tan wash for chrome
-    "editorGroup.border": "#DCD9D3",
-    "editorGroupHeader.tabsBackground": "#EDEBE7",
-    "editorGroupHeader.noTabsBackground": "#EDEBE7",
+    // warm-900 (#F3F1EE) — warm neutral chrome
+    "editorGroup.border": "#D1CDC6",
+    "editorGroupHeader.tabsBackground": "#F3F1EE",
+    "editorGroupHeader.noTabsBackground": "#F3F1EE",
     "tab.activeBackground": "#FBFAF8",
     "tab.activeForeground": "#0D322D",
     "tab.activeBorder": "#5B544C",
-    "tab.inactiveBackground": "#EDEBE7",
+    "tab.inactiveBackground": "#F3F1EE",
     "tab.inactiveForeground": "#5B544C",
-    "tab.border": "#EDEBE7",
+    "tab.border": "#F3F1EE",
     "tab.hoverBackground": "#FBFAF8",
 
     // ── Title Bar ───────────────────────────────────────────
-    // warm-800 (#E7E4DF) — one step above sidebar for hierarchy
-    "titleBar.activeBackground": "#E7E4DF",
+    // warm-900 (#F3F1EE) — matches sidebar, thin strip should blend
+    "titleBar.activeBackground": "#F3F1EE",
     "titleBar.activeForeground": "#0D322D",
-    "titleBar.inactiveBackground": "#E7E4DF",
+    "titleBar.inactiveBackground": "#F3F1EE",
     "titleBar.inactiveForeground": "#5B544C",
-    "titleBar.border": "#DCD9D3",
+    "titleBar.border": "#D1CDC6",
 
     // ── Activity Bar ────────────────────────────────────────
-    // Warm neutral dark instead of teal — teal reserved for accents
-    "activityBar.background": "#5B544C",
-    "activityBar.foreground": "#FBFAF8",
-    "activityBar.inactiveForeground": "#B3ADA4",
-    "activityBar.border": "#5B544C",
+    // warm-800 (#E7E4DF) — one step darker than sidebar, mirrors dark theme pattern
+    "activityBar.background": "#E7E4DF",
+    "activityBar.foreground": "#0D322D",
+    "activityBar.inactiveForeground": "#857E75",
+    "activityBar.border": "#D1CDC6",
     "activityBarBadge.background": "#1B685E",
     "activityBarBadge.foreground": "#FBFAF8",
 
     // ── Sidebar ─────────────────────────────────────────────
-    // warm-850 (#EDEBE7) — warm tan wash matching tab bar
-    "sideBar.background": "#EDEBE7",
+    // warm-900 (#F3F1EE) — warm neutral chrome matching tab bar
+    "sideBar.background": "#F3F1EE",
     "sideBar.foreground": "#0D322D",
-    "sideBar.border": "#DCD9D3",
+    "sideBar.border": "#D1CDC6",
     "sideBarTitle.foreground": "#0D322D",
     "sideBarSectionHeader.background": "#E7E4DF",
     "sideBarSectionHeader.foreground": "#0D322D",
@@ -88,11 +88,27 @@
     "statusBarItem.remoteForeground": "#FBFAF8",
 
     // ── Panel (Terminal, Output, etc.) ──────────────────────
-    "panel.background": "#EDEBE7",
-    "panel.border": "#DCD9D3",
+    "panel.background": "#F3F1EE",
+    "panel.border": "#D1CDC6",
     "panelTitle.activeBorder": "#5B544C",
     "panelTitle.activeForeground": "#0D322D",
     "panelTitle.inactiveForeground": "#5B544C",
+
+    // ── Text Blocks (chat, hover, markdown preview) ───────
+    "textCodeBlock.background": "#F3F1EE",
+    "textBlockQuote.background": "#F3F1EE",
+    "textBlockQuote.border": "#857E75",
+    "textPreformat.foreground": "#5B544C",
+    "textPreformat.background": "#F3F1EE",
+    "textLink.foreground": "#1B685E",
+    "textLink.activeForeground": "#0D322D",
+    "textSeparator.foreground": "#D1CDC6",
+
+    // ── Chat ────────────────────────────────────────────────
+    "chat.requestBackground": "#F3F1EE",
+    "chat.requestBorder": "#D1CDC660",
+    "chat.slashCommandBackground": "#E7E4DF60",
+    "chat.slashCommandForeground": "#5B544C",
 
     // ── Inputs ──────────────────────────────────────────────
     "input.background": "#FBFAF8",
@@ -104,7 +120,7 @@
     "inputValidation.errorBackground": "#FCE5E3",
     "inputValidation.errorBorder": "#C13C3B",
     "inputValidation.warningBackground": "#F4EAD5",
-    "inputValidation.warningBorder": "#B58B20",
+    "inputValidation.warningBorder": "#754B00",
     "inputValidation.infoBackground": "#DFEEF7",
     "inputValidation.infoBorder": "#287AA3",
 
@@ -136,22 +152,22 @@
     // ── Lists & Trees ───────────────────────────────────────
     "list.activeSelectionBackground": "#E7E4DF",
     "list.activeSelectionForeground": "#0D322D",
-    "list.inactiveSelectionBackground": "#EDEBE7",
+    "list.inactiveSelectionBackground": "#E7E4DF",
     "list.inactiveSelectionForeground": "#0D322D",
-    "list.hoverBackground": "#EDEBE7",
+    "list.hoverBackground": "#E7E4DF",
     "list.hoverForeground": "#0D322D",
     "list.focusBackground": "#E7E4DF",
     "list.focusForeground": "#0D322D",
     "list.highlightForeground": "#1B685E",
     "list.errorForeground": "#C13C3B",
-    "list.warningForeground": "#B58B20",
+    "list.warningForeground": "#754B00",
 
     // ── Widgets ─────────────────────────────────────────────
     "widget.shadow": "#5B544C10",
-    "editorWidget.background": "#EDEBE7",
+    "editorWidget.background": "#F3F1EE",
     "editorWidget.foreground": "#0D322D",
-    "editorWidget.border": "#DCD9D3",
-    "editorSuggestWidget.background": "#EDEBE7",
+    "editorWidget.border": "#D1CDC6",
+    "editorSuggestWidget.background": "#F3F1EE",
     "editorSuggestWidget.foreground": "#0D322D",
     "editorSuggestWidget.selectedBackground": "#E7E4DF",
     "editorSuggestWidget.highlightForeground": "#1B685E",
@@ -160,7 +176,7 @@
     "peekView.border": "#857E75",
     "peekViewEditor.background": "#FBFAF8",
     "peekViewEditor.matchHighlightBackground": "#D0E7E280",
-    "peekViewResult.background": "#EDEBE7",
+    "peekViewResult.background": "#F3F1EE",
     "peekViewResult.fileForeground": "#0D322D",
     "peekViewResult.lineForeground": "#5B544C",
     "peekViewResult.matchHighlightBackground": "#D0E7E280",
@@ -174,20 +190,20 @@
     "minimap.findMatchHighlight": "#D0E7E2",
     "minimap.selectionHighlight": "#5B544C60",
     "minimap.errorHighlight": "#C13C3B",
-    "minimap.warningHighlight": "#B58B20",
+    "minimap.warningHighlight": "#754B00",
     "minimapGutter.addedBackground": "#3A8E64",
-    "minimapGutter.modifiedBackground": "#B58B20",
+    "minimapGutter.modifiedBackground": "#1B685E",
     "minimapGutter.deletedBackground": "#C13C3B",
 
     // ── Breadcrumbs ─────────────────────────────────────────
     "breadcrumb.foreground": "#5B544C",
     "breadcrumb.focusForeground": "#0D322D",
     "breadcrumb.activeSelectionForeground": "#0D322D",
-    "breadcrumbPicker.background": "#EDEBE7",
+    "breadcrumbPicker.background": "#F3F1EE",
 
     // ── Git Decorations ─────────────────────────────────────
     "gitDecoration.addedResourceForeground": "#3A8E64",
-    "gitDecoration.modifiedResourceForeground": "#B58B20",
+    "gitDecoration.modifiedResourceForeground": "#1B685E",
     "gitDecoration.deletedResourceForeground": "#C13C3B",
     "gitDecoration.untrackedResourceForeground": "#287AA3",
     "gitDecoration.conflictingResourceForeground": "#C13C3B",
@@ -211,12 +227,12 @@
     "focusBorder": "#1B685E",
 
     // ── Terminal ────────────────────────────────────────────
-    "terminal.background": "#EDEBE7",
+    "terminal.background": "#F3F1EE",
     "terminal.foreground": "#0D322D",
     "terminal.ansiBlack": "#0D322D",
     "terminal.ansiRed": "#C13C3B",
     "terminal.ansiGreen": "#3A8E64",
-    "terminal.ansiYellow": "#B58B20",
+    "terminal.ansiYellow": "#754B00",
     "terminal.ansiBlue": "#287AA3",
     "terminal.ansiMagenta": "#932B2A",
     "terminal.ansiCyan": "#1B685E",
@@ -233,16 +249,16 @@
     "terminalCursor.foreground": "#1B685E",
 
     // ── Notification ────────────────────────────────────────
-    "notificationCenter.border": "#DCD9D3",
-    "notifications.background": "#EDEBE7",
+    "notificationCenter.border": "#D1CDC6",
+    "notifications.background": "#F3F1EE",
     "notifications.foreground": "#0D322D",
-    "notifications.border": "#DCD9D3",
+    "notifications.border": "#D1CDC6",
     "notificationsErrorIcon.foreground": "#C13C3B",
-    "notificationsWarningIcon.foreground": "#B58B20",
+    "notificationsWarningIcon.foreground": "#754B00",
     "notificationsInfoIcon.foreground": "#287AA3"
   },
 
-  // Syntax tokens identical to Haven Light (teal) —
+  // Syntax tokens identical to Haven Teal Light —
   // the code reads the same, only the chrome changes
   "tokenColors": [
     {
@@ -373,7 +389,7 @@
     {
       "name": "Changed",
       "scope": ["markup.changed"],
-      "settings": { "foreground": "#B58B20" }
+      "settings": { "foreground": "#754B00" }
     },
     {
       "name": "Invalid",
