@@ -12,6 +12,7 @@
     "editor.lineHighlightBorder": "#2C272200",
     "editor.selectionBackground": "#5B544C60",
     "editor.selectionHighlightBackground": "#5B544C40",
+    "selection.background": "#81B98360",
     "editor.wordHighlightBackground": "#5B544C50",
     "editor.wordHighlightStrongBackground": "#5B544C70",
     "editor.findMatchBackground": "#1B685E70",
