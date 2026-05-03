@@ -5,9 +5,9 @@
   "colors": {
 
     // ── Editor ──────────────────────────────────────────────
-    // Editor = deepest surface (warm-50 #0E0A08) — maximum text contrast (~19.6:1)
-    "editor.background": "#0E0A08",
-    "editor.foreground": "#E7E4DF",
+    // Editor = deepest surface (warm-50 #25211D) — maximum text contrast (~19.6:1)
+    "editor.background": "#25211D",
+    "editor.foreground": "#D1CDC6",
     "editor.lineHighlightBackground": "#3F393340",
     "editor.lineHighlightBorder": "#3F393300",
     "editor.selectionBackground": "#5B544C60",
@@ -25,7 +25,7 @@
     "editorIndentGuide.background": "#3F393350",
     "editorIndentGuide.activeBackground": "#5B544C80",
     "editorLineNumber.foreground": "#5B544C",
-    "editorLineNumber.activeForeground": "#E7E4DF",
+    "editorLineNumber.activeForeground": "#D1CDC6",
     "editorRuler.foreground": "#3F393350",
     "editorBracketMatch.background": "#5B544C40",
     "editorBracketMatch.border": "#857E75",
@@ -58,18 +58,18 @@
     "editorGroup.border": "#25211D",
     "editorGroupHeader.tabsBackground": "#25211D",
     "editorGroupHeader.noTabsBackground": "#25211D",
-    "tab.activeBackground": "#0E0A08",
-    "tab.activeForeground": "#E7E4DF",
+    "tab.activeBackground": "#25211D",
+    "tab.activeForeground": "#D1CDC6",
     "tab.activeBorder": "#857E75",
     "tab.inactiveBackground": "#25211D",
     "tab.inactiveForeground": "#B3ADA4",
     "tab.border": "#25211D",
-    "tab.hoverBackground": "#0E0A08",
+    "tab.hoverBackground": "#25211D",
 
     // ── Title Bar ───────────────────────────────────────────
     // warm-75 (#25211D) — half-step between activity bar and editor
     "titleBar.activeBackground": "#25211D",
-    "titleBar.activeForeground": "#E7E4DF",
+    "titleBar.activeForeground": "#D1CDC6",
     "titleBar.inactiveBackground": "#25211D",
     "titleBar.inactiveForeground": "#B3ADA4",
     "titleBar.border": "#25211D40",
@@ -77,44 +77,44 @@
     // ── Activity Bar ────────────────────────────────────────
     // warm-75 (#25211D) — one step darker than sidebar for depth
     "activityBar.background": "#25211D",
-    "activityBar.foreground": "#E7E4DF",
+    "activityBar.foreground": "#D1CDC6",
     "activityBar.inactiveForeground": "#857E75",
     "activityBar.border": "#25211D",
     "activityBarBadge.background": "#1B685E",
-    "activityBarBadge.foreground": "#E7E4DF",
+    "activityBarBadge.foreground": "#D1CDC6",
 
     // ── Sidebar ─────────────────────────────────────────────
     // warm-100 (#25211D) — matches activity bar, chrome level
     "sideBar.background": "#25211D",
-    "sideBar.foreground": "#E7E4DF",
+    "sideBar.foreground": "#D1CDC6",
     "sideBar.border": "#25211D40",
-    "sideBarTitle.foreground": "#E7E4DF",
+    "sideBarTitle.foreground": "#D1CDC6",
     "sideBarSectionHeader.background": "#25211D",
-    "sideBarSectionHeader.foreground": "#E7E4DF",
+    "sideBarSectionHeader.foreground": "#D1CDC6",
 
     // ── Status Bar ──────────────────────────────────────────
     "statusBar.background": "#3F3933",
-    "statusBar.foreground": "#E7E4DF",
+    "statusBar.foreground": "#D1CDC6",
     "statusBar.border": "#3F3933",
     "statusBar.debuggingBackground": "#1B685E",
-    "statusBar.debuggingForeground": "#E7E4DF",
-    "statusBar.noFolderBackground": "#0E0A08",
+    "statusBar.debuggingForeground": "#D1CDC6",
+    "statusBar.noFolderBackground": "#25211D",
     "statusBar.noFolderForeground": "#B3ADA4",
     "statusBarItem.hoverBackground": "#3F393380",
     "statusBarItem.remoteBackground": "#1B685E",
-    "statusBarItem.remoteForeground": "#E7E4DF",
+    "statusBarItem.remoteForeground": "#D1CDC6",
 
     // ── Panel ───────────────────────────────────────────────
     // warm-100 (#25211D) — chrome level, matches sidebar
     "panel.background": "#25211D",
     "panel.border": "#25211D40",
     "panelTitle.activeBorder": "#857E75",
-    "panelTitle.activeForeground": "#E7E4DF",
+    "panelTitle.activeForeground": "#D1CDC6",
     "panelTitle.inactiveForeground": "#B3ADA4",
 
     // ── Inputs ──────────────────────────────────────────────
-    "input.background": "#0E0A08",
-    "input.foreground": "#E7E4DF",
+    "input.background": "#25211D",
+    "input.foreground": "#D1CDC6",
     "input.border": "#5B544C",
     "input.placeholderForeground": "#5B544C80",
     "inputOption.activeBorder": "#52A395",
@@ -128,63 +128,63 @@
 
     // ── Buttons ─────────────────────────────────────────────
     "button.background": "#1B685E",
-    "button.foreground": "#E7E4DF",
+    "button.foreground": "#D1CDC6",
     "button.hoverBackground": "#124D45",
     "button.secondaryBackground": "#3F3933",
-    "button.secondaryForeground": "#E7E4DF",
+    "button.secondaryForeground": "#D1CDC6",
     "button.secondaryHoverBackground": "#5B544C",
 
     // ── Dropdown ────────────────────────────────────────────
-    "dropdown.background": "#0E0A08",
-    "dropdown.foreground": "#E7E4DF",
+    "dropdown.background": "#25211D",
+    "dropdown.foreground": "#D1CDC6",
     "dropdown.border": "#5B544C",
     "dropdown.listBackground": "#25211D",
 
     // ── Badges ──────────────────────────────────────────────
     "badge.background": "#1B685E",
-    "badge.foreground": "#E7E4DF",
+    "badge.foreground": "#D1CDC6",
 
     // ── Scrollbar ───────────────────────────────────────────
-    "scrollbar.shadow": "#0E0A0860",
+    "scrollbar.shadow": "#25211D60",
     "scrollbarSlider.background": "#3F393360",
     "scrollbarSlider.hoverBackground": "#3F393380",
     "scrollbarSlider.activeBackground": "#5B544C80",
 
     // ── Lists & Trees ───────────────────────────────────────
     "list.activeSelectionBackground": "#25211D",
-    "list.activeSelectionForeground": "#E7E4DF",
+    "list.activeSelectionForeground": "#D1CDC6",
     "list.inactiveSelectionBackground": "#25211D",
-    "list.inactiveSelectionForeground": "#E7E4DF",
+    "list.inactiveSelectionForeground": "#D1CDC6",
     "list.hoverBackground": "#25211D",
-    "list.hoverForeground": "#E7E4DF",
+    "list.hoverForeground": "#D1CDC6",
     "list.focusBackground": "#25211D",
-    "list.focusForeground": "#E7E4DF",
+    "list.focusForeground": "#D1CDC6",
     "list.highlightForeground": "#52A395",
     "list.errorForeground": "#D87972",
     "list.warningForeground": "#CEA861",
 
     // ── Widgets ─────────────────────────────────────────────
-    "widget.shadow": "#0E0A0860",
+    "widget.shadow": "#25211D60",
     "editorWidget.background": "#25211D",
-    "editorWidget.foreground": "#E7E4DF",
+    "editorWidget.foreground": "#D1CDC6",
     "editorWidget.border": "#25211D40",
     "editorSuggestWidget.background": "#25211D",
-    "editorSuggestWidget.foreground": "#E7E4DF",
+    "editorSuggestWidget.foreground": "#D1CDC6",
     "editorSuggestWidget.selectedBackground": "#25211D",
     "editorSuggestWidget.highlightForeground": "#52A395",
 
     // ── Peek View ───────────────────────────────────────────
     "peekView.border": "#857E75",
-    "peekViewEditor.background": "#0E0A08",
+    "peekViewEditor.background": "#25211D",
     "peekViewEditor.matchHighlightBackground": "#1B685E50",
     "peekViewResult.background": "#25211D",
-    "peekViewResult.fileForeground": "#E7E4DF",
+    "peekViewResult.fileForeground": "#D1CDC6",
     "peekViewResult.lineForeground": "#B3ADA4",
     "peekViewResult.matchHighlightBackground": "#1B685E50",
     "peekViewResult.selectionBackground": "#25211D",
-    "peekViewResult.selectionForeground": "#E7E4DF",
-    "peekViewTitle.background": "#0E0A08",
-    "peekViewTitleLabel.foreground": "#E7E4DF",
+    "peekViewResult.selectionForeground": "#D1CDC6",
+    "peekViewTitle.background": "#25211D",
+    "peekViewTitleLabel.foreground": "#D1CDC6",
     "peekViewTitleDescription.foreground": "#B3ADA4",
 
     // ── Minimap ─────────────────────────────────────────────
@@ -198,8 +198,8 @@
 
     // ── Breadcrumbs ─────────────────────────────────────────
     "breadcrumb.foreground": "#B3ADA4",
-    "breadcrumb.focusForeground": "#E7E4DF",
-    "breadcrumb.activeSelectionForeground": "#E7E4DF",
+    "breadcrumb.focusForeground": "#D1CDC6",
+    "breadcrumb.activeSelectionForeground": "#D1CDC6",
     "breadcrumbPicker.background": "#25211D",
 
     // ── Git Decorations ─────────────────────────────────────
@@ -229,15 +229,15 @@
 
     // ── Terminal ────────────────────────────────────────────
     "terminal.background": "#25211D",
-    "terminal.foreground": "#E7E4DF",
-    "terminal.ansiBlack": "#0E0A08",
+    "terminal.foreground": "#D1CDC6",
+    "terminal.ansiBlack": "#25211D",
     "terminal.ansiRed": "#D87972",
     "terminal.ansiGreen": "#81B983",
     "terminal.ansiYellow": "#CEA861",
     "terminal.ansiBlue": "#538EB0",
     "terminal.ansiMagenta": "#D87972",
     "terminal.ansiCyan": "#52A395",
-    "terminal.ansiWhite": "#E7E4DF",
+    "terminal.ansiWhite": "#D1CDC6",
     "terminal.ansiBrightBlack": "#857E75",
     "terminal.ansiBrightRed": "#E09990",
     "terminal.ansiBrightGreen": "#ACCFAD",
@@ -245,14 +245,14 @@
     "terminal.ansiBrightBlue": "#7CB1CC",
     "terminal.ansiBrightMagenta": "#E09990",
     "terminal.ansiBrightCyan": "#7CB9AD",
-    "terminal.ansiBrightWhite": "#E7E4DF",
+    "terminal.ansiBrightWhite": "#D1CDC6",
     "terminal.selectionBackground": "#5B544C60",
     "terminalCursor.foreground": "#52A395",
 
     // ── Notification ────────────────────────────────────────
     "notificationCenter.border": "#25211D40",
     "notifications.background": "#25211D",
-    "notifications.foreground": "#E7E4DF",
+    "notifications.foreground": "#D1CDC6",
     "notifications.border": "#25211D40",
     "notificationsErrorIcon.foreground": "#D87972",
     "notificationsWarningIcon.foreground": "#CEA861",
@@ -295,7 +295,7 @@
     {
       "name": "Variables",
       "scope": ["variable", "variable.other", "variable.parameter"],
-      "settings": { "foreground": "#E7E4DF" }
+      "settings": { "foreground": "#D1CDC6" }
     },
     {
       "name": "Properties",
@@ -355,12 +355,12 @@
     {
       "name": "Markdown Headings",
       "scope": ["heading.1.markdown", "heading.2.markdown", "heading.3.markdown", "heading.4.markdown", "heading.5.markdown", "heading.6.markdown", "markup.heading", "markup.heading.setext"],
-      "settings": { "foreground": "#E7E4DF", "fontStyle": "bold" }
+      "settings": { "foreground": "#D1CDC6", "fontStyle": "bold" }
     },
     {
       "name": "Markdown Bold",
       "scope": ["markup.bold"],
-      "settings": { "foreground": "#E7E4DF", "fontStyle": "bold" }
+      "settings": { "foreground": "#D1CDC6", "fontStyle": "bold" }
     },
     {
       "name": "Markdown Italic",
