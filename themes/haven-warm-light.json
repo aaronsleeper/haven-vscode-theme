@@ -7,7 +7,7 @@
     // ── Editor ──────────────────────────────────────────────
     "editor.background": "#FBFAF8",
     "editor.foreground": "#0D322D",
-    "editor.lineHighlightBackground": "#EDEBE7",
+    "editor.lineHighlightBackground": "#F3F1EE",
     "editor.lineHighlightBorder": "#F3F1EE00",
     "editor.selectionBackground": "#E7E4DF",
     "editor.selectionHighlightBackground": "#E7E4DF80",
@@ -78,12 +78,12 @@
     // Warm neutral — teal only appears as accent (badge, focus)
     "statusBar.background": "#5B544C",
     "statusBar.foreground": "#FBFAF8",
-    "statusBar.border": "#3D3731",
+    "statusBar.border": "#3F3933",
     "statusBar.debuggingBackground": "#1B685E",
     "statusBar.debuggingForeground": "#FBFAF8",
     "statusBar.noFolderBackground": "#857E75",
     "statusBar.noFolderForeground": "#FBFAF8",
-    "statusBarItem.hoverBackground": "#3D373180",
+    "statusBarItem.hoverBackground": "#3F393380",
     "statusBarItem.remoteBackground": "#1B685E",
     "statusBarItem.remoteForeground": "#FBFAF8",
 
@@ -212,14 +212,14 @@
     "gitDecoration.stageDeletedResourceForeground": "#C13C3B",
 
     // ── Diff Editor ─────────────────────────────────────────
-    "diffEditor.insertedTextBackground": "#DCF0E530",
+    "diffEditor.insertedTextBackground": "#D0E5D130",
     "diffEditor.removedTextBackground": "#FCE5E330",
-    "diffEditor.insertedLineBackground": "#DCF0E520",
+    "diffEditor.insertedLineBackground": "#D0E5D120",
     "diffEditor.removedLineBackground": "#FCE5E320",
 
     // ── Merge Conflicts ─────────────────────────────────────
-    "merge.currentHeaderBackground": "#DCF0E580",
-    "merge.currentContentBackground": "#DCF0E530",
+    "merge.currentHeaderBackground": "#D0E5D180",
+    "merge.currentContentBackground": "#D0E5D130",
     "merge.incomingHeaderBackground": "#DFEEF780",
     "merge.incomingContentBackground": "#DFEEF730",
 

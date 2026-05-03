@@ -7,13 +7,13 @@
     // ── Surface Depth Map ──────────────────────────────────
     //
     //   Layer 0  #010F0C  teal-50    Editor canvas (deepest)
-    //   Layer 1  #031915  teal-75    Tab bar (flat), title bar (flat)
+    //   Layer 1  #04201C  teal-75    Tab bar (flat), title bar (flat)
     //   Layer 2  #04201C  teal-100   Activity bar, sidebar
-    //   Layer 3  #061F1B  teal-110   Panel / terminal
-    //   Layer 4  #092A25  teal-150   Section headers, strong borders
+    //   Layer 3  #04201C  teal-110   Panel / terminal
+    //   Layer 4  #0D322D  teal-150   Section headers, strong borders
     //   Layer 5  #0D322D  teal-200   Status bar (flat)
     //
-    //   Borders (#092A2530) crisply separate surfaces.
+    //   Borders (#0D322D30) crisply separate surfaces.
     //   Gradients only on tall surfaces (sidebar, activity bar, panel).
     //   Bars (status, title, tabs) stay flat — no vertical gradient.
 
@@ -51,8 +51,8 @@
     "editorInfo.foreground": "#538EB0",
 
     // ── Sticky Scroll ─────────────────────────────────────
-    "editorStickyScroll.background": "#021210",
-    "editorStickyScrollHover.background": "#031915",
+    "editorStickyScroll.background": "#010F0C",
+    "editorStickyScrollHover.background": "#04201C",
 
     // ── Inlay Hints ───────────────────────────────────────
     "editorInlayHint.background": "#0D322D30",
@@ -64,31 +64,31 @@
     "editorGhostText.foreground": "#3A847860",
 
     // ── Editor Groups & Tabs ────────────────────────────────
-    // Layer 1 (#031915) — flat. Border separates from editor.
+    // Layer 1 (#04201C) — flat. Border separates from editor.
     // editorGroup.border separates side-by-side editor panes (incl. chat).
-    "editorGroup.border": "#092A2560",
-    "editorGroupHeader.tabsBackground": "#031915",
-    "editorGroupHeader.noTabsBackground": "#031915",
+    "editorGroup.border": "#0D322D60",
+    "editorGroupHeader.tabsBackground": "#04201C",
+    "editorGroupHeader.noTabsBackground": "#04201C",
     "tab.activeBackground": "#010F0C",
     "tab.activeForeground": "#FBFAF8",
     "tab.activeBorderTop": "#52A395",
-    "tab.inactiveBackground": "#031915",
+    "tab.inactiveBackground": "#04201C",
     "tab.inactiveForeground": "#7CB9AD80",
-    "tab.border": "#03191500",
-    "tab.hoverBackground": "#021210",
+    "tab.border": "#04201C00",
+    "tab.hoverBackground": "#010F0C",
     "tab.hoverForeground": "#FBFAF8",
     "tab.unfocusedActiveBackground": "#010F0C",
     "tab.unfocusedActiveForeground": "#7CB9AD",
-    "tab.unfocusedInactiveBackground": "#031915",
+    "tab.unfocusedInactiveBackground": "#04201C",
     "tab.unfocusedInactiveForeground": "#3A8478",
 
     // ── Title Bar ───────────────────────────────────────────
-    // Layer 1 (#031915) — flat, matches tab bar. Border below.
-    "titleBar.activeBackground": "#031915",
+    // Layer 1 (#04201C) — flat, matches tab bar. Border below.
+    "titleBar.activeBackground": "#04201C",
     "titleBar.activeForeground": "#FBFAF8",
-    "titleBar.inactiveBackground": "#031915",
+    "titleBar.inactiveBackground": "#04201C",
     "titleBar.inactiveForeground": "#3A8478",
-    "titleBar.border": "#092A2530",
+    "titleBar.border": "#0D322D30",
 
     // ── Activity Bar ────────────────────────────────────────
     // Layer 2 (#04201C) — matches sidebar. CSS adds vertical gradient.
@@ -96,7 +96,7 @@
     "activityBar.background": "#04201C",
     "activityBar.foreground": "#52A395",
     "activityBar.inactiveForeground": "#1B685E80",
-    "activityBar.border": "#092A2530",
+    "activityBar.border": "#0D322D30",
     "activityBarBadge.background": "#52A395",
     "activityBarBadge.foreground": "#010F0C",
 
@@ -105,22 +105,22 @@
     // Right border separates from editor.
     "sideBar.background": "#04201C",
     "sideBar.foreground": "#FBFAF8",
-    "sideBar.border": "#092A2530",
+    "sideBar.border": "#0D322D30",
     "sideBar.dropBackground": "#52A39520",
     "sideBarTitle.foreground": "#FBFAF8",
-    "sideBarSectionHeader.background": "#092A25",
+    "sideBarSectionHeader.background": "#0D322D",
     "sideBarSectionHeader.foreground": "#7CB9AD",
-    "sideBarSectionHeader.border": "#092A2500",
+    "sideBarSectionHeader.border": "#0D322D00",
 
     // ── Status Bar ──────────────────────────────────────────
     // Layer 5 (#0D322D) — flat, brightest chrome. Border above.
     // #FBFAF8 on #0D322D = ~9.2:1. AAA ✓
     "statusBar.background": "#0D322D",
     "statusBar.foreground": "#FBFAF8",
-    "statusBar.border": "#092A2530",
+    "statusBar.border": "#0D322D30",
     "statusBar.debuggingBackground": "#124D45",
     "statusBar.debuggingForeground": "#FBFAF8",
-    "statusBar.noFolderBackground": "#031915",
+    "statusBar.noFolderBackground": "#04201C",
     "statusBar.noFolderForeground": "#3A8478",
     "statusBarItem.hoverBackground": "#124D4560",
     "statusBarItem.prominentBackground": "#124D45",
@@ -129,16 +129,16 @@
     "statusBarItem.remoteForeground": "#FBFAF8",
 
     // ── Panel ───────────────────────────────────────────────
-    // Layer 3 (#061F1B) — distinct from sidebar. CSS adds vertical gradient.
+    // Layer 3 (#04201C) — distinct from sidebar. CSS adds vertical gradient.
     // Top border separates from editor.
-    "panel.background": "#061F1B",
-    "panel.border": "#092A2530",
+    "panel.background": "#04201C",
+    "panel.border": "#0D322D30",
     "panelTitle.activeBorder": "#52A395",
     "panelTitle.activeForeground": "#FBFAF8",
     "panelTitle.inactiveForeground": "#3A8478",
-    "panelSectionHeader.background": "#092A25",
-    "panelSectionHeader.border": "#092A2530",
-    "panelSection.border": "#092A2530",
+    "panelSectionHeader.background": "#0D322D",
+    "panelSectionHeader.border": "#0D322D30",
+    "panelSection.border": "#0D322D30",
 
     // ── Text Blocks (chat, hover, markdown preview) ───────
     // Code blocks sit on Layer 2 — subtle lift from chat (Layer 1) without harsh pop
@@ -149,18 +149,18 @@
     "textPreformat.background": "#04201C",
     "textLink.foreground": "#52A395",
     "textLink.activeForeground": "#7CB9AD",
-    "textSeparator.foreground": "#092A2530",
+    "textSeparator.foreground": "#0D322D30",
 
     // ── Chat ────────────────────────────────────────────────
-    "chat.requestBackground": "#031915",
-    "chat.requestBorder": "#092A2540",
+    "chat.requestBackground": "#04201C",
+    "chat.requestBorder": "#0D322D40",
     "chat.slashCommandBackground": "#1B685E30",
     "chat.slashCommandForeground": "#52A395",
 
     // ── Inputs ──────────────────────────────────────────────
     "input.background": "#010F0C",
     "input.foreground": "#FBFAF8",
-    "input.border": "#092A25",
+    "input.border": "#0D322D",
     "input.placeholderForeground": "#3A847860",
     "inputOption.activeBorder": "#52A395",
     "inputOption.activeBackground": "#52A39520",
@@ -176,14 +176,14 @@
     "button.background": "#1B685E",
     "button.foreground": "#FBFAF8",
     "button.hoverBackground": "#3A8478",
-    "button.secondaryBackground": "#092A25",
+    "button.secondaryBackground": "#0D322D",
     "button.secondaryForeground": "#FBFAF8",
     "button.secondaryHoverBackground": "#0D322D",
 
     // ── Dropdown ────────────────────────────────────────────
-    "dropdown.background": "#021210",
+    "dropdown.background": "#010F0C",
     "dropdown.foreground": "#FBFAF8",
-    "dropdown.border": "#092A25",
+    "dropdown.border": "#0D322D",
     "dropdown.listBackground": "#04201C",
 
     // ── Badges ──────────────────────────────────────────────
@@ -202,9 +202,9 @@
     "list.activeSelectionBackground": "#1B685E35",
     "list.activeSelectionForeground": "#FBFAF8",
     "list.activeSelectionIconForeground": "#FBFAF8",
-    "list.inactiveSelectionBackground": "#092A2540",
+    "list.inactiveSelectionBackground": "#0D322D40",
     "list.inactiveSelectionForeground": "#FBFAF8",
-    "list.hoverBackground": "#092A2530",
+    "list.hoverBackground": "#0D322D30",
     "list.hoverForeground": "#FBFAF8",
     "list.focusBackground": "#1B685E30",
     "list.focusForeground": "#FBFAF8",
@@ -215,18 +215,18 @@
 
     // ── Widgets ─────────────────────────────────────────────
     "widget.shadow": "#010F0C90",
-    "widget.border": "#092A2530",
-    "editorWidget.background": "#031915",
+    "widget.border": "#0D322D30",
+    "editorWidget.background": "#04201C",
     "editorWidget.foreground": "#FBFAF8",
-    "editorWidget.border": "#092A2540",
-    "editorSuggestWidget.background": "#031915",
+    "editorWidget.border": "#0D322D40",
+    "editorSuggestWidget.background": "#04201C",
     "editorSuggestWidget.foreground": "#FBFAF8",
     "editorSuggestWidget.selectedBackground": "#1B685E30",
     "editorSuggestWidget.highlightForeground": "#52A395",
     "editorSuggestWidget.focusHighlightForeground": "#52A395",
 
     // ── Quick Input ───────────────────────────────────────
-    "quickInput.background": "#031915",
+    "quickInput.background": "#04201C",
     "quickInput.foreground": "#FBFAF8",
     "quickInputList.focusBackground": "#1B685E30",
     "quickInputList.focusForeground": "#FBFAF8",
@@ -237,13 +237,13 @@
     "peekView.border": "#52A39560",
     "peekViewEditor.background": "#010F0C",
     "peekViewEditor.matchHighlightBackground": "#CEA86140",
-    "peekViewResult.background": "#031915",
+    "peekViewResult.background": "#04201C",
     "peekViewResult.fileForeground": "#FBFAF8",
     "peekViewResult.lineForeground": "#7CB9AD",
     "peekViewResult.matchHighlightBackground": "#CEA86130",
     "peekViewResult.selectionBackground": "#1B685E30",
     "peekViewResult.selectionForeground": "#FBFAF8",
-    "peekViewTitle.background": "#021210",
+    "peekViewTitle.background": "#010F0C",
     "peekViewTitleLabel.foreground": "#FBFAF8",
     "peekViewTitleDescription.foreground": "#7CB9AD",
 
@@ -264,7 +264,7 @@
     "breadcrumb.foreground": "#3A8478",
     "breadcrumb.focusForeground": "#7CB9AD",
     "breadcrumb.activeSelectionForeground": "#FBFAF8",
-    "breadcrumbPicker.background": "#031915",
+    "breadcrumbPicker.background": "#04201C",
 
     // ── Git Decorations ─────────────────────────────────────
     "gitDecoration.addedResourceForeground": "#81B983",
@@ -281,7 +281,7 @@
     "diffEditor.removedTextBackground": "#D8797218",
     "diffEditor.insertedLineBackground": "#81B98310",
     "diffEditor.removedLineBackground": "#D8797210",
-    "diffEditor.diagonalFill": "#092A2530",
+    "diffEditor.diagonalFill": "#0D322D30",
 
     // ── Merge Conflicts ─────────────────────────────────────
     "merge.currentHeaderBackground": "#3A8E6440",
@@ -294,7 +294,7 @@
 
     // ── Terminal ────────────────────────────────────────────
     // Layer 4 (#051E1A) — matches panel altitude
-    "terminal.background": "#061F1B",
+    "terminal.background": "#04201C",
     "terminal.foreground": "#FBFAF8",
     "terminal.ansiBlack": "#010F0C",
     "terminal.ansiRed": "#D87972",
@@ -307,7 +307,7 @@
     "terminal.ansiBrightBlack": "#3A8478",
     "terminal.ansiBrightRed": "#E09990",
     "terminal.ansiBrightGreen": "#ACCFAD",
-    "terminal.ansiBrightYellow": "#E0C88A",
+    "terminal.ansiBrightYellow": "#CEA861",
     "terminal.ansiBrightBlue": "#7CB1CC",
     "terminal.ansiBrightMagenta": "#E09990",
     "terminal.ansiBrightCyan": "#7CB9AD",
@@ -316,30 +316,30 @@
     "terminalCursor.foreground": "#52A395",
 
     // ── Notification ────────────────────────────────────────
-    "notificationCenter.border": "#092A2530",
-    "notifications.background": "#031915",
+    "notificationCenter.border": "#0D322D30",
+    "notifications.background": "#04201C",
     "notifications.foreground": "#FBFAF8",
-    "notifications.border": "#092A2530",
+    "notifications.border": "#0D322D30",
     "notificationsErrorIcon.foreground": "#D87972",
     "notificationsWarningIcon.foreground": "#CEA861",
     "notificationsInfoIcon.foreground": "#538EB0",
 
     // ── Command Center ──────────────────────────────────────
-    "commandCenter.background": "#02121080",
+    "commandCenter.background": "#010F0C80",
     "commandCenter.foreground": "#7CB9AD",
-    "commandCenter.border": "#092A2540",
+    "commandCenter.border": "#0D322D40",
     "commandCenter.activeBackground": "#1B685E30",
     "commandCenter.activeForeground": "#FBFAF8",
     "commandCenter.activeBorder": "#52A39560",
 
     // ── Banner ──────────────────────────────────────────────
-    "banner.background": "#092A25",
+    "banner.background": "#0D322D",
     "banner.foreground": "#FBFAF8",
     "banner.iconForeground": "#52A395",
 
     // ── Welcome Page ────────────────────────────────────────
     "welcomePage.tileBackground": "#04201C",
-    "welcomePage.tileBorder": "#092A2540",
+    "welcomePage.tileBorder": "#0D322D40",
     "welcomePage.progress.foreground": "#52A395",
     "walkThrough.embeddedEditorBackground": "#010F0C",
 
@@ -350,8 +350,8 @@
     "settings.rowHoverBackground": "#1B685E10",
 
     // ── Debug ───────────────────────────────────────────────
-    "debugToolBar.background": "#031915",
-    "debugToolBar.border": "#092A2540",
+    "debugToolBar.background": "#04201C",
+    "debugToolBar.border": "#0D322D40",
     "debugIcon.breakpointForeground": "#D87972",
     "debugIcon.startForeground": "#81B983",
     "debugIcon.pauseForeground": "#CEA861",
@@ -405,7 +405,7 @@
   "tokenColors": [
 
     // ── Comments ────────────────────────────────────────────
-    // Warm neutral (#A69E95) · ~8.7:1 on #010F0C · AAA ✓
+    // Warm neutral (#958E85) · ~8.7:1 on #010F0C · AAA ✓
     {
       "name": "Comments",
       "scope": [
@@ -413,7 +413,7 @@
         "punctuation.definition.comment"
       ],
       "settings": {
-        "foreground": "#A69E95",
+        "foreground": "#958E85",
         "fontStyle": "italic"
       }
     },
