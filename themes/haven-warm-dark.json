@@ -54,8 +54,9 @@
     "chat.slashCommandForeground": "#B3ADA4",
 
     // ── Editor Groups & Tabs ────────────────────────────────
-    // warm-150 (#25211D) for borders — half-step between sidebar and editor
-    "editorGroup.border": "#25211D",
+    // warm-200 @ 50% for editor group border — visible hairline between panes
+    // (was #25211D which matched editor.background and rendered invisible)
+    "editorGroup.border": "#3F393380",
     "editorGroupHeader.tabsBackground": "#25211D",
     "editorGroupHeader.noTabsBackground": "#25211D",
     "tab.activeBackground": "#25211D",
