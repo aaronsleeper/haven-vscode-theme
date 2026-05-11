@@ -57,15 +57,17 @@
     // warm-200 @ 50% for editor group border — visible hairline between panes
     // (was #25211D which matched editor.background and rendered invisible)
     "editorGroup.border": "#3F393380",
-    "editorGroupHeader.tabsBackground": "#25211D",
-    "editorGroupHeader.noTabsBackground": "#25211D",
+    // Tab strip lifts to warm-150 chrome; active tab punches through to editor bg.
+    "editorGroupHeader.tabsBackground": "#322E28",
+    "editorGroupHeader.noTabsBackground": "#322E28",
     "tab.activeBackground": "#25211D",
-    "tab.activeForeground": "#D1CDC6",
-    "tab.activeBorder": "#857E75",
-    "tab.inactiveBackground": "#25211D",
-    "tab.inactiveForeground": "#B3ADA4",
-    "tab.border": "#25211D",
-    "tab.hoverBackground": "#25211D",
+    "tab.activeForeground": "#F3F1EE",
+    "tab.activeBorderTop": "#52A395",
+    "tab.activeBorder": "#25211D00",
+    "tab.inactiveBackground": "#322E28",
+    "tab.inactiveForeground": "#958E85",
+    "tab.border": "#322E28",
+    "tab.hoverBackground": "#3F3933",
 
     // ── Title Bar ───────────────────────────────────────────
     // warm-75 (#25211D) — half-step between activity bar and editor
