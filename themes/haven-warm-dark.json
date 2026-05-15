@@ -154,7 +154,7 @@
     "scrollbarSlider.activeBackground": "#5B544C80",
 
     // ── Lists & Trees ───────────────────────────────────────
-    "list.activeSelectionBackground": "#25211D",
+    "list.activeSelectionBackground": "#3D4D49",
     "list.activeSelectionForeground": "#D1CDC6",
     "list.inactiveSelectionBackground": "#25211D",
     "list.inactiveSelectionForeground": "#D1CDC6",
